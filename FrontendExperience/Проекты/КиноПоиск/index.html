@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MovieApp</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="./logo.png" type="image/x.icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contain">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="../Что то другое/index.html">
+                        <img src="./logo.png" class="icon">
+                        Movie App
+                    </a>
+
+                </div>
+                <nav class="nav" style="display: none;">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="./index.html">Фильмы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link about__us" href="#">О нас</a>
+                        </li>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="./index.html">Фильмы</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link about__us" href="#">О нас</a>
+                                </li>
+
+                            </ul>
+                            <span class="nav__burger active"></span>
+                            <ul class="nav__list-mobile active">
+                                <li class="nav__item">
+                                    <a class="nav__link" href="#">Фильмы</a>
+                                </li>
+                                <li class="nav__item">
+                                    <span class="nav__link">О нас</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </ul>
+                    <span class="nav__burger"></span>
+                    <ul class="nav__list-mobile">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Фильмы</a>
+                        </li>
+                        <li class="nav__item">
+                            <span class="nav__link">О нас</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="film-area">
+                    <div class="film-list">
+
+                    </div>
+
+                </div>
+                <div class="page-changer">
+                    <div class="buttons">
+                        <button class="minus__ten button max" onclick="minusDesyat()">
+                            << </button>
+                                <button class="minus__one button min" onclick="minusOdin()">
+                                    < </button>
+                                        <!-- <button class="button film-page"></button> -->
+                                        <button class="plus__one button min" onclick="plusOdin()"> > </button>
+                                        <button class="minus__ten button max" onclick="plusDesyat()"> >> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <section class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-content">
+                <div class="footer-link">
+                    <div class="footer-title">
+                        Контактная информация
+                    </div>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши работы</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши услуги</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <div class="footer-title">
+                        Контактная информация
+                    </div>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши работы</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши услуги</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <div class="footer-title">
+                        Контактная информация
+                    </div>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши работы</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши услуги</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <div class="footer-title">
+                        Контактная информация
+                    </div>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши работы</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Наши услуги</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-license">
+                <p>(с) 2021. Все права защищены.<br>
+                    Вот почта:it20gmail.com<span> Фальшивка</span>
+                </p>
+            </div>
+        </div>
+</section> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./a.js"></script>
+</body>
+
+</html>
